@@ -6,11 +6,13 @@
   <title>Jednoduché vyhledávání</title>
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  <main>
-    <h1>Google</h1>
+<body class="home-page">
+  <main class="home-main">
+    <h1 class="home-logo" aria-label="Google">
+      <span class="logo-blue">G</span><span class="logo-red">o</span><span class="logo-yellow">o</span><span class="logo-blue">g</span><span class="logo-green">l</span><span class="logo-red">e</span>
+    </h1>
 
-    <form action="https://www.google.com/search" method="get">
+    <form class="home-form" action="https://www.google.com/search" method="get">
       <label for="search">Co chcete vyhledat?</label>
       <input
         type="search"
@@ -19,7 +21,10 @@
         placeholder="Zadejte hledaný text"
         required
       >
-      <button type="submit">Hledat</button>
+      <div class="home-buttons">
+        <button type="submit">Hledat Googlem</button>
+        <button type="submit" name="btnI" value="I'm Feeling Lucky">Cítím se šťastný</button>
+      </div>
     </form>
   </main>
 </body>

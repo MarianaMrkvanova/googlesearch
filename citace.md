@@ -33,7 +33,7 @@ Použij jednoduché HTML a CSS, bez JavaScriptu. Zachovej vše, co už v projekt
 -------------------------------
 ADVANCED.HTML
 
-Uprav pouze soubor advanced.html, který slouží pro Google Advanced Search (pokročilé vyhledávání).
+1. Uprav pouze soubor advanced.html, který slouží pro Google Advanced Search (pokročilé vyhledávání).
 
 Na stránce vytvoř formulář se čtyřmi vyhledávacími poli:
 
@@ -45,3 +45,26 @@ Některá z těchto slov.
 Uživatel musí mít možnost vyplnit všechna pole a kliknout na tlačítko pro vyhledávání. Poté se musí zobrazit výsledky pokročilého vyhledávání Google podle zadaných údajů.
 
 Použij jednoduché HTML a CSS bez JavaScriptu. Zachovej odkaz zpět na Google Search v pravém horním rohu. Neměň ostatní soubory ani jejich vzhled. Jsem začátečník, proto chci jednoduchý a srozumitelný kód.
+
+2. Uprav pouze soubor advanced.html (Google Advanced Search).
+
+Všechna textová pole budou zarovnána vlevo.
+Po kliknutí na tlačítko se uživatel přesměruje na výsledky pokročilého vyhledávání Google podle zadaných údajů.
+
+Zachovej vše, co už v projektu funguje.
+
+INDEX.HTML
+
+1. Uprav pouze soubor index.html (hlavní stránka Google Search).
+
+Přidej tlačítko „Cítím se šťastný“. Po kliknutí na toto tlačítko bude uživatel přesměrován přímo na první výsledek vyhledávání Google podle zadaného dotazu, bez zobrazení běžných výsledků vyhledávání.
+
+Zachovej vše, co už v projektu funguje.
+
+STYLE.CSS
+
+udělej estetiku stránky tak aby připomínala google search
+
+KONTROLA
+
+Zkontroluj celý můj projekt a ověř, že všechny HTML formuláře správně odesílají data na Google. Zkontroluj atributy name, value a správné GET parametry. Pokud je potřeba, použij také skrytá pole type="hidden". Oprav případné chyby, ale zachovej současný vzhled stránek a vše, co už funguje. Použij jednoduchý HTML kód bez JavaScriptu.
