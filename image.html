@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Google Image Search</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="top-link" href="index.html">Google Search</a>
+
+  <main>
+    <h1>Google</h1>
+    <p class="page-subtitle">Vyhledávání obrázků</p>
+
+    <form action="https://www.google.com/search" method="get">
+      <label for="image-search">Jaký obrázek hledáte?</label>
+      <input
+        type="search"
+        id="image-search"
+        name="q"
+        placeholder="Zadejte hledaný text"
+        required
+      >
+      <input type="hidden" name="tbm" value="isch">
+      <button type="submit">Hledat obrázky</button>
+    </form>
+  </main>
+</body>
+</html>

@@ -8,10 +8,31 @@ body {
   font-family: Arial, sans-serif;
 }
 
+main {
+  width: min(600px, 90vw);
+}
+
+.top-link {
+  position: absolute;
+  top: 20px;
+  right: 24px;
+  color: #1a73e8;
+  text-decoration: none;
+}
+
+.top-link:hover {
+  text-decoration: underline;
+}
+
 h1 {
   margin: 0 0 24px;
   color: #4285f4;
   font-size: 56px;
+}
+
+.page-subtitle {
+  margin: -16px 0 24px;
+  color: #666;
 }
 
 form {
@@ -40,4 +61,37 @@ button {
 
 button:hover {
   background-color: #e5e5e5;
+}
+
+.advanced-page h1 {
+  font-size: 32px;
+}
+
+.advanced-form {
+  display: grid;
+  gap: 16px;
+}
+
+.advanced-row {
+  display: grid;
+  grid-template-columns: minmax(180px, 1fr) minmax(200px, 2fr);
+  align-items: center;
+  gap: 12px;
+}
+
+.advanced-row input {
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 4px;
+}
+
+.advanced-form button {
+  justify-self: end;
+}
+
+@media (max-width: 520px) {
+  .advanced-row {
+    grid-template-columns: 1fr;
+    gap: 6px;
+  }
 }
